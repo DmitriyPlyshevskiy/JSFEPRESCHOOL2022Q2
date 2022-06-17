@@ -11,23 +11,37 @@
     <title>Travel</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-wrapper">
+    <div class="wrapper">
+        <header class="header">
             <div class="header-logo">
-                <div class="logo"></div>
+                <div class="logo">
+                    <svg class="icon">
+                        <use xlink:href="./assets/svg/sprite.svg#header-icon"></use>
+                    </svg>
+                </div>
                 <div class="logo-title">Travel Portal </div>
             </div>
             <nav class="header-nav">
                 <ul class="header-nav_items">
-                    <li class="header-nav_item">How It Works</li>
-                    <li class="header-nav_item">Plan Your Trip</li>
-                    <li class="header-nav_item">Destinations</li>
-                    <li class="header-nav_item">Travel Stories</li>
+                    <li class="header-nav_item"><a href="#preview">How It Works</a></li>
+                    <li class="header-nav_item"><a href="#staps">Plan Your Trip</a></li>
+                    <li class="header-nav_item"><a href="#destinations">Destinations</a></li>
+                    <li class="header-nav_item"><a href="#stories">Travel Stories</a></li>
                 </ul>
             </nav>
-            <button class="button login-button">Login</button>
-        </div>
+            <button class="login-button">Login</button>            
     </header>
+    <main class="main">
+        <section class="preview">
+            <div class="preview-wrapper">
+                <h1 class="preview-title">Explore the beauty of the World</h1>
+                <p class="preview-subtitle">Recieve personalized recommendations for countries, hotels, activities and more</p>
+                <div class="preview_entry-field"></div>
+            </div>
+        </section>
+    </main>
+    </div>
+    
 
 
 
