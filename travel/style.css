@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    /* position: relative; */
 }
 
 * {
@@ -41,6 +40,8 @@ button {
     cursor: pointer;
 }
 
+
+
 /* HEADER */
 
 .header {
@@ -53,8 +54,6 @@ button {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    /* box-shadow: 0 5px 0 rgba(13, 96, 111, 0.5); */
-    
     box-shadow: 0 5px 5px rgba(13, 96, 111, 0.7);
 }
 
@@ -81,8 +80,9 @@ button {
 
 .login-button {
     width: 103px;
-    height: 40px;
+    height: 43px;
     font-size: 16px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* MAIN */
@@ -91,10 +91,65 @@ button {
     max-width: 1440px;
     height: 765px;
     margin: 0 auto;
-    /* background-color: aquamarine; */
     padding-top: 122px;
     padding-left: 120px;
     background-image: url(./assets/jpg/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
     background-repeat: no-repeat;
-    /* background-position: 0 -90px; */
+}
+
+.preview-wrapper {
+    max-width: 892px;
+}
+
+.preview-title {
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #fff;
+}
+
+.preview-subtitle {
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.preview-search {
+    height: 95px;
+    padding-left: 41px;
+    padding-right: 18px;    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 65%;
+    background: inherit;
+    border: none;
+}
+
+.search-button {
+    width: 228px;
+    height: 59px;
+    font-size: 24px;
+}
+
+::placeholder {
+    font-family: 'Aleo', serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #F2785C;
 }
