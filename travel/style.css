@@ -385,3 +385,61 @@ button {
     color: #0D606F;
     text-decoration: underline;
 }
+
+.stories-button {
+    margin: 40px auto 0;
+    width: 228px;
+    height: 59px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stories-button_arrow {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.stories-button_text {
+    padding-left: 10px;
+}
+
+/* FOOTER */
+
+.footer-wrapper {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-right_text {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.rs-school-link {
+    font-size: 20px;
+}
+
+.rs-school-link a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.social-list {
+    display: flex;
+    gap: 20px;
+}
+
+.sm-icons {  
+    fill: #fff;  
+    width: 32px;
+    height: 32px;
+}
