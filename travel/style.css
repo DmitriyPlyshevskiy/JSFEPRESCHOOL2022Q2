@@ -232,15 +232,18 @@ button {
 
 /* DESTINATIONS */
 
-.destinations {
+.destinations {    
     overflow: hidden;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .destinations-items {
     width: 2520px;
     margin-top: 46px;
     display: flex;
+    justify-content: center;
     gap: 60px;
 }
 
