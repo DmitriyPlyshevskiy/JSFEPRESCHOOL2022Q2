@@ -330,24 +330,20 @@ button {
     margin-top: 80px;
 }
 
+.stories-wrapper {
+    background: url(./assets/jpg/Rectangle\ 33.jpg);
+    background-repeat: no-repeat;
+}
+
 .stories-items {
+    background: rgba(255, 255, 255, 0.7);
     margin-top: 37px;
+    padding-top: 15px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-}
-
-.stories-items::after {
-    content: "";
-    background: url(./assets/jpg/Rectangle\ 33.jpg);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; 
 }
 
 .stories-item {
@@ -404,7 +400,9 @@ button {
     font-family: 'Aleo', serif;
     font-weight: 400;
     font-size: 20px;
+    line-height: 24px;
     color: #0D606F;
+    padding-top: 25px;
 }
 
 .stories-item_description__link {
@@ -416,7 +414,7 @@ button {
 }
 
 .stories-button {
-    margin: 40px auto 0;
+    margin: 60px auto 0;
     width: 228px;
     height: 59px;
     font-size: 24px;
@@ -444,11 +442,12 @@ button {
 
 .footer-wrapper {
     width: 1200px;
+    height: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    margin: 0 auto;
 }
 
 .footer-right_text {
